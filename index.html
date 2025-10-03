@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CASE EMERGENCY</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="#" onclick="showCatalog(); toggleMenu();">📱 Catálogo</a>
+                <a href="#" onclick="showContact(); toggleMenu();">📞 Contacto</a>
+                <a href="#" onclick="showAbout(); toggleMenu();">ℹ️ Acerca de</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="hero">
+                <h1>Protección Premium para tu iPhone</h1>
+                <p>Fundas de alta calidad para iPhone 12 - 16</p>
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel-container">
+                <div class="carousel" id="carousel">
+                    <div class="carousel-slide">
+                        <img src="img/iphone1.jpg" alt="Producto 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/iphone2.jpg" alt="Producto 2">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/iphone3.jpg" alt="Producto 3">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/iphone4.jpg" alt="Producto 4">
+                    </div>
+                </div>
+
+                <button class="catalog-btn" onclick="showCatalog()">
+                    🚀 Explorar Catálogo
+                </button>
+            </div>
+        </section>
+
+        <!-- Catalog Section -->
+        <section id="catalog" class="iphone-selection">
+            <button class="back-btn" onclick="showHome()">← Volver al inicio</button>
+            <h2 class="section-title">Selecciona tu iPhone</h2>
+            <div class="iphone-grid">
+                <div class="iphone-card" onclick="selectIphone('iPhone 12')">
+                    <h3>iPhone 12</h3>
+                    <div class="iphone-icon">📱</div>
+                    <p>modelos disponibles</p>
+                </div>
+                <div class="iphone-card" onclick="selectIphone('iPhone 13')">
+                    <h3>iPhone 13</h3>
+                    <div class="iphone-icon">📱</div>
+                    <p>modelos disponibles</p>
+                </div>
+                <div class="iphone-card" onclick="selectIphone('iPhone 14')">
+                    <h3>iPhone 14</h3>
+                    <div class="iphone-icon">📱</div>
+                    <p>modelos disponibles</p>
+                </div>
+                <div class="iphone-card" onclick="selectIphone('iPhone 15')">
+                    <h3>iPhone 15</h3>
+                    <div class="iphone-icon">📱</div>
+                    <p>modelos disponibles</p>
+                </div>
+                <div class="iphone-card" onclick="selectIphone('iPhone 16')">
+                    <h3>iPhone 16</h3>
+                    <div class="iphone-icon">📱</div>
+                    <p>modelos disponibles</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Model Selection -->
+        <section id="modelSelection" class="model-selection">
+            <button class="back-btn" onclick="showCatalog()">← Volver al catálogo</button>
+            <h2 class="section-title" id="selectedIphone"></h2>
+
+            <div class="model-buttons">
+                <button class="model-btn active" onclick="selectModel('normal')">Normal</button>
+                <button class="model-btn" onclick="selectModel('pro')">Pro</button>
+                <button class="model-btn" onclick="selectModel('pro-max')">Pro Max</button>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded here -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section hidden">
+            <button class="back-btn" onclick="showHome()">← Volver al inicio</button>
+            <div class="hero">
+                <h2>Contáctanos</h2>
+                <p style="text-align: left; line-height: 1.8; margin-top: 20px;">
+                    <strong>📱 WhatsApp:</strong> +51 999 999 999<br>
+                    <strong>📍 Ubicación:</strong> Lima, Perú<br>
+                    <strong>🚚 Entregas:</strong> Todo Lima<br>
+                    <strong>⏰ Tiempo:</strong> 24-48 horas<br>
+                </p>
+                <button class="catalog-btn" onclick="contactWhatsApp()" style="margin-top: 20px;">
+                    💬 Escribir por WhatsApp
+                </button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section hidden">
+            <button class="back-btn" onclick="showHome()">← Volver al inicio</button>
+            <div class="hero">
+                <h2>Acerca de Case Emergency</h2>
+    
+                <div style="text-align: left; line-height: 1.6;">
+                    <strong>🎯 Nuestra Misión:</strong><br>
+                    Proteger tu iPhone con fundas de la más alta calidad y diseños innovadores.
+                    <br><br>
+                    <strong>✅ ¿Por qué elegirnos?</strong><br>
+                    • Fundas de calidad premium<br>
+                    • Compatibilidad 100% garantizada<br>
+                    • Diseños únicos y modernos<br>
+                    • Atención personalizada<br>
+                    • Envíos rápidos y seguros<br>
+                    • Garantía en todos nuestros productos
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Cart Icon -->
+    <button class="cart-icon" onclick="toggleCart()">
+        🛒
+        <span class="cart-count" id="cartCount">0</span>
+    </button>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>🛒 Mi Carrito</h2>
+                <button class="close-cart" onclick="toggleCart()">✕</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <div class="empty-cart">
+                    <div class="empty-cart-icon">🛍️</div>
+                    <h3>Tu carrito está vacío</h3>
+                </div>
+            </div>
+            <div class="cart-total" id="cartTotal" style="display: none;">
+                <div class="total-amount" id="totalAmount">Total: S/0</div>
+                <button class="whatsapp-btn" onclick="finalizePurchase()">
+                    🚀 Finalizar por WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-brand">Case Emergency</div>
+
+        <div class="social-links">
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">📸</a>
+        </div>
+
+        <div class="copyright">
+            © 2024 Case Emergency. Todos los derechos reservados.
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
