@@ -14,56 +14,53 @@ const products = {
             { id: 4, name: 'Rosa Pastel', price: 30, image: "img/12normal/04.jpg" },
         ],
         'pro': [
-            { id: 5, name: 'Pro Leather Negro', price: 42, emoji: '🖤' },
-            { id: 6, name: 'Pro Carbon Fiber', price: 48, emoji: '⚡' },
-            { id: 7, name: 'Pro Gold Edition', price: 52, emoji: '👑' },
-            { id: 8, name: 'Pro Silver Metal', price: 45, emoji: '💎' }
+            { id: 5, name: 'Pro Leather Negro', price: 42, image: "img/12pro/01.jpg" },
+            { id: 6, name: 'Pro Carbon Fiber', price: 48, image: "img/12pro/02.jpg" },
+            { id: 7, name: 'Pro Gold Edition', price: 52, image: "img/12pro/03.jpg" },
+            { id: 8, name: 'Pro Silver Metal', price: 45, image: "img/12pro/04.jpg" },
         ],
         'pro-max': [
-            { id: 9, name: 'Max Ultra Shield', price: 58, emoji: '🛡️' },
-            { id: 10, name: 'Max Luxury Gold', price: 65, emoji: '👸' },
-            { id: 11, name: 'Max Sport Active', price: 55, emoji: '⚽' },
-            { id: 12, name: 'Max Crystal Clear', price: 60, emoji: '💫' }
+            { id: 9, name: 'Max Ultra Shield', price: 58,image: "img/12promax/01.jpg" },
+            { id: 10, name: 'Max Luxury Gold', price: 65, image: "img/12promax/02.jpg" },
+            { id: 11, name: 'Max Sport Active', price: 55, image: "img/12promax/03.jpg" },
         ]
     },
     'iPhone 13': {
         'normal': [
-            { id: 13, name: 'Clear 13 Premium', price: 26, emoji: '🔍' },
-            { id: 14, name: 'Purple Dream', price: 34, emoji: '💜' },
-            { id: 15, name: 'Green Nature', price: 31, emoji: '💚' },
-            { id: 16, name: 'Red Passion', price: 33, emoji: '❤️' }
-        ],
+            { id: 13, name: 'Clear 13 Premium', image: "img/13normal/01.jpg" },
+             ],
+    
         'pro': [
-            { id: 17, name: 'Pro 13 Elite', price: 45, emoji: '🎯' },
-            { id: 18, name: 'Pro 13 Matte Black', price: 50, emoji: '⚫' },
-            { id: 19, name: 'Pro 13 Gradient', price: 53, emoji: '🌈' },
-            { id: 20, name: 'Pro 13 Crystal', price: 48, emoji: '💎' }
+            { id: 17, name: 'Pro 13 Elite',image: "img/13pro/01.jpg" },
+            { id: 18, name: 'Pro 13 Matte Black', image: "img/13pro/02.jpg" },
+            { id: 19, name: 'Pro 13 Gradient', image: "img/13pro/03.jpg" },
+            { id: 20, name: 'Pro 13 Crystal', image: "img/13pro/04.jpg" },
+            { id: 20, name: 'Pro 13 Crystal', image: "img/13pro/05.jpg" },
         ],
         'pro-max': [
-            { id: 21, name: 'Max 13 Titanium', price: 62, emoji: '🚀' },
-            { id: 22, name: 'Max 13 Armor Pro', price: 68, emoji: '🛡️' },
-            { id: 23, name: 'Max 13 Royal', price: 70, emoji: '👸' },
-            { id: 24, name: 'Max 13 Thunder', price: 58, emoji: '⚡' }
+            { id: 21, name: 'Max 13 Crystal', image: "img/13promax/01.jpg" },
+            { id: 22, name: 'Max 13 Crystal', image: "img/13promax/02.jpg" },
+            { id: 23, name: 'Max 13 Crystal', image: "img/13promax/03.jpg" },
+            { id: 24, name: 'Max 13 13 Crystal', image: "img/13promax/04.jpg" },
         ]
     },
     'iPhone 14': {
         'normal': [
-            { id: 25, name: 'Clear 14 Ultra', price: 28, emoji: '🔍' },
-            { id: 26, name: 'Midnight Black', price: 36, emoji: '⚫' },
-            { id: 27, name: 'Sunset Orange', price: 33, emoji: '🌅' },
-            { id: 28, name: 'Forest Green', price: 35, emoji: '🌲' }
+            { id: 25, name: 'Clear 14 Ultra', image: "img/14normal/01.jpg" },
         ],
         'pro': [
-            { id: 29, name: 'Pro 14 Titanium', price: 48, emoji: '🎯' },
-            { id: 30, name: 'Pro 14 Ceramic', price: 53, emoji: '⚡' },
-            { id: 31, name: 'Pro 14 Sapphire', price: 56, emoji: '💎' },
-            { id: 32, name: 'Pro 14 Matrix', price: 50, emoji: '🔮' }
+            { id: 29, name: 'Clear 14 Ultra', image: "img/14pro/01.jpg" },
+            { id: 30, name: 'Pro 14 Ceramic', image: "img/14pro/02.jpg" },
+            { id: 31, name: 'Pro 14 Sapphire', image: "img/14pro/03.jpg" },
+            { id: 32, name: 'Pro 14 Matrix', image: "img/14pro/04.jpg" },
+            { id: 32, name: 'Pro 14 Matrix', image: "img/14pro/05.jpg" },
         ],
         'pro-max': [
-            { id: 33, name: 'Max 14 Quantum', price: 65, emoji: '🚀' },
-            { id: 34, name: 'Max 14 Fortress', price: 70, emoji: '🛡️' },
-            { id: 35, name: 'Max 14 Diamond', price: 75, emoji: '👸' },
-            { id: 36, name: 'Max 14 Storm', price: 63, emoji: '⚡' }
+            { id: 33, name: 'Max 14 Quantum',  image: "img/14promax/01.jpg" },
+            { id: 34, name: 'Max 14 Fortress',  image: "img/14promax/02.jpg" },
+            { id: 35, name: 'Max 14 Diamond',  image: "img/14promax/03.jpg" },
+            { id: 36, name: 'Max 14 Storm',  image: "img/14promax/04.jpg" },
+             { id: 36, name: 'Max 14 Storm',  image: "img/14promax/05.jpg" },
         ]
     },
     'iPhone 15': {
