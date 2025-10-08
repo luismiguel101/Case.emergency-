@@ -27,80 +27,78 @@ const products = {
     },
     'iPhone 13': {
         'normal': [
-            { id: 13, name: 'Clear 13 Premium', image: "img/13normal/01.jpg" },
+            { id: 12, name: 'Clear 13 Premium', image: "img/13normal/01.jpg" },
              ],
     
         'pro': [
-            { id: 17, name: 'Pro 13 Elite',image: "img/13pro/01.jpg" },
-            { id: 18, name: 'Pro 13 Matte Black', image: "img/13pro/02.jpg" },
-            { id: 19, name: 'Pro 13 Gradient', image: "img/13pro/03.jpg" },
-            { id: 20, name: 'Pro 13 Crystal', image: "img/13pro/04.jpg" },
-            { id: 20, name: 'Pro 13 Crystal', image: "img/13pro/05.jpg" },
+            { id: 13, name: 'Pro 13 Elite',image: "img/13pro/01.jpg" },
+            { id: 14, name: 'Pro 13 Matte Black', image: "img/13pro/02.jpg" },
+            { id: 15, name: 'Pro 13 Gradient', image: "img/13pro/03.jpg" },
+            { id: 16, name: 'Pro 13 Crystal', image: "img/13pro/04.jpg" },
+            { id: 17, name: 'Pro 13 Crystal', image: "img/13pro/05.jpg" },
         ],
         'pro-max': [
-            { id: 21, name: 'Max 13 Crystal', image: "img/13promax/01.jpg" },
-            { id: 22, name: 'Max 13 Crystal', image: "img/13promax/02.jpg" },
-            { id: 23, name: 'Max 13 Crystal', image: "img/13promax/03.jpg" },
-            { id: 24, name: 'Max 13 13 Crystal', image: "img/13promax/04.jpg" },
+            { id: 18, name: 'Max 13 Crystal', image: "img/13promax/01.jpg" },
+            { id: 19, name: 'Max 13 Crystal', image: "img/13promax/02.jpg" },
+            { id: 20, name: 'Max 13 Crystal', image: "img/13promax/03.jpg" },
+            { id: 21, name: 'Max 13 13 Crystal', image: "img/13promax/04.jpg" },
         ]
     },
     'iPhone 14': {
         'normal': [
-            { id: 25, name: 'Clear 14 Ultra', image: "img/14normal/01.jpg" },
+            { id: 22, name: 'Clear 14 Ultra', image: "img/14normal/01.jpg" },
         ],
         'pro': [
-            { id: 29, name: 'Clear 14 Ultra', image: "img/14pro/01.jpg" },
-            { id: 30, name: 'Pro 14 Ceramic', image: "img/14pro/02.jpg" },
-            { id: 31, name: 'Pro 14 Sapphire', image: "img/14pro/03.jpg" },
-            { id: 32, name: 'Pro 14 Matrix', image: "img/14pro/04.jpg" },
-            { id: 32, name: 'Pro 14 Matrix', image: "img/14pro/05.jpg" },
+            { id: 23, name: 'Clear 14 Ultra', image: "img/14pro/01.jpg" },
+            { id: 24, name: 'Pro 14 Ceramic', image: "img/14pro/02.jpg" },
+            { id: 25, name: 'Pro 14 Sapphire', image: "img/14pro/03.jpg" },
+            { id: 26, name: 'Pro 14 Matrix', image: "img/14pro/04.jpg" },
+            { id: 27, name: 'Pro 14 Matrix', image: "img/14pro/05.jpg" },
         ],
         'pro-max': [
-            { id: 33, name: 'Max 14 Quantum',  image: "img/14promax/01.jpg" },
-            { id: 34, name: 'Max 14 Fortress',  image: "img/14promax/02.jpg" },
-            { id: 35, name: 'Max 14 Diamond',  image: "img/14promax/03.jpg" },
-            { id: 36, name: 'Max 14 Storm',  image: "img/14promax/04.jpg" },
-             { id: 36, name: 'Max 14 Storm',  image: "img/14promax/05.jpg" },
+            { id: 28, name: 'Max 14 Quantum',  image: "img/14promax/01.jpg" },
+            { id: 29, name: 'Max 14 Fortress',  image: "img/14promax/02.jpg" },
+            { id: 30, name: 'Max 14 Diamond',  image: "img/14promax/03.jpg" },
+            { id: 31, name: 'Max 14 Storm',  image: "img/14promax/04.jpg" },
+            { id: 32, name: 'Max 14 Storm',  image: "img/14promax/05.jpg" },
         ]
     },
     'iPhone 15': {
         'normal': [
-            { id: 37, name: 'Clear 15 Pro', price: 30, emoji: '🔍' },
-            { id: 38, name: 'Obsidian Black', price: 38, emoji: '⚫' },
-            { id: 39, name: 'Aurora Blue', price: 35, emoji: '🌌' },
-            { id: 40, name: 'Coral Pink', price: 37, emoji: '🪸' }
+            { id: 33, name: 'Clear 15 Pro',price: 35, image: "img/15normal/01.jpg" },
+            { id: 34, name: 'Obsidian Black',price: 35, image: "img/15normal/02.jpg" },
+            { id: 35, name: 'Aurora Blue', price: 35, image: "img/15normal/03.jpg" },
+            { id: 36, name: 'Coral Pink', price: 37, image: "img/15normal/04.jpg" },
+            { id: 37, name: 'Coral Pink', price: 37, image: "img/15normal/05.jpg" },
         ],
         'pro': [
-            { id: 41, name: 'Pro 15 Nexus', price: 50, emoji: '🎯' },
-            { id: 42, name: 'Pro 15 Phantom', price: 55, emoji: '⚡' },
-            { id: 43, name: 'Pro 15 Cosmos', price: 58, emoji: '🌟' },
-            { id: 44, name: 'Pro 15 Prism', price: 53, emoji: '💎' }
+            { id: 38, name: 'Pro 15 Nexus', price: 50, image: "img/15pro/01.jpg" },
+            { id: 39, name: 'Pro 15 Phantom', price: 55, image: "img/15pro/02.jpg" },
+            { id: 40, name: 'Pro 15 Cosmos', price: 58,image: "img/15pro/03.jpg" },
+            { id: 41, name: 'Pro 15 Prism', price: 53, image: "img/15pro/04.jpg" },
+            { id: 42, name: 'Pro 15 Prism', price: 53, image: "img/15pro/05.jpg" },
         ],
         'pro-max': [
-            { id: 45, name: 'Max 15 Infinity', price: 68, emoji: '🚀' },
-            { id: 46, name: 'Max 15 Gladiator', price: 72, emoji: '🛡️' },
-            { id: 47, name: 'Max 15 Emperor', price: 78, emoji: '👸' },
-            { id: 48, name: 'Max 15 Lightning', price: 65, emoji: '⚡' }
+            { id: 43, name: 'Max 15 Infinity', price: 68, image: "img/15promax/01.jpg" },
+            { id: 44, name: 'Max 15 Gladiator', price: 72, image: "img/15promax/02.jpg" },
+
         ]
     },
     'iPhone 16': {
         'normal': [
-            { id: 49, name: 'Clear 16 Future', price: 32, emoji: '🔍' },
-            { id: 50, name: 'Space Black', price: 40, emoji: '⚫' },
-            { id: 51, name: 'Galaxy Purple', price: 37, emoji: '🌌' },
-            { id: 52, name: 'Ocean Teal', price: 39, emoji: '🌊' }
+            { id: 45, name: 'Clear 16 Future', price: 32, image: "img/16normal/01.jpg" },
+            { id: 46, name: 'Space Black', price: 40, image: "img/16normal/02.jpg" },
+    
         ],
         'pro': [
-            { id: 53, name: 'Pro 16 Apex', price: 52, emoji: '🎯' },
-            { id: 54, name: 'Pro 16 Shadow', price: 57, emoji: '⚡' },
-            { id: 55, name: 'Pro 16 Nova', price: 60, emoji: '🌟' },
-            { id: 56, name: 'Pro 16 Elite', price: 55, emoji: '💎' }
+            { id: 47, name: 'Pro 16 Apex', price: 52,image: "img/16pro/01.jpg" },
+            { id: 48, name: 'Pro 16 Shadow', price: 57, image: "img/16pro/02.jpg" },
+            { id: 49, name: 'Pro 16 Nova', price: 60, image: "img/16pro/03.jpg" },
+            { id: 50, name: 'Pro 16 Elite', price: 55, image: "img/16pro/04.jpg" },
         ],
+
         'pro-max': [
-            { id: 57, name: 'Max 16 Ultimate', price: 70, emoji: '🚀' },
-            { id: 58, name: 'Max 16 Titan', price: 75, emoji: '🛡️' },
-            { id: 59, name: 'Max 16 Sovereign', price: 80, emoji: '👸' },
-            { id: 60, name: 'Max 16 Volt', price: 68, emoji: '⚡' }
+            { id: 51, name: 'Max 16 Ultimate', price: 70, image: "img/16promax/01.jpg" },
         ]
     }
 };
@@ -291,7 +289,7 @@ function updateCartDisplay() {
             <div class="empty-cart">
                 <div class="empty-cart-icon">🛍️</div>
                 <h3>Tu carrito está vacío</h3>
-                <p>¡Agrega algunas fundas increíbles!</p>
+                <p>¡Descubre productos únicos y con estilo!</p>
             </div>
         `;
         cartTotal.style.display = 'none';

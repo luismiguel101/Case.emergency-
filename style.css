@@ -19,9 +19,10 @@ body {
     top: 0;
     z-index: 1000;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    height: 180px;      
+    min-height: 180px;      
     display: flex;      
     align-items: center; 
+    overflow: visible;
 }
 
 /* Para oscurecer un poco la imagen y que el nav se lea bien */
@@ -32,7 +33,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.182);
     /* capa semitransparente */
     z-index: 1;
 }
@@ -41,10 +42,10 @@ body {
 .nav {
     position: relative;
     z-index: 2;
-    /* para que quede sobre la imagen y la capa oscura */
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    width: 100%;
     padding: 15px 20px;
 }
 
@@ -67,16 +68,17 @@ body {
 
 .dropdown-menu {
     position: absolute;
-    top: 100%;
-    right: 20px;
+    top: 50px; /* se muestra debajo del botón ☰ */
+    right: 20px;  /* alineado con el borde derecho del nav */
     background: linear-gradient(135deg, #064e3b, #166534);
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
     transition: all 0.3s ease;
     pointer-events: none;
     min-width: 200px;
+    z-index: 1003;
 }
 
 .dropdown-menu.active {
@@ -115,7 +117,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 238, 0.95);
     margin: 20px;
     border-radius: 20px;
     padding: 30px 20px;
@@ -612,9 +614,9 @@ body {
 }
 
 .social-link {
-    width: 50px;
-    height: 50px;
-    background: #10b981;
+    width: 40px;
+    height: 40px;
+    background: #f1f1f1;
     color: white;
     border-radius: 50%;
     display: flex;
