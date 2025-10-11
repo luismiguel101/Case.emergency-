@@ -336,7 +336,7 @@ function finalizePurchase() {
      cart.forEach(item => {
         const subtotal = item.price * item.quantity;
         total += subtotal;
-        
+
         total += item.price * item.quantity;
         message += `#${item.id} - ${item.name}\n`;
         message += `• Precio: S/ ${item.price}\n`;
@@ -350,13 +350,13 @@ function finalizePurchase() {
     message += "🛵 *Dirección de entrega:* (escribe aquí tu dirección)\n";
     message += "💳 *Método de pago:* (Yape / Plin / Efectivo)\n\n";
    
-    const whatsappUrl = `https://wa.me/51962314578?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/51900061273?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
 function contactWhatsApp() {
     const message = "¡Hola! Me gustaría conocer más sobre sus fundas para iPhone. ¿Podrían ayudarme?";
-    const whatsappUrl = `https://wa.me/51962314578?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/51900061273?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
