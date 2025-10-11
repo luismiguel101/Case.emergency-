@@ -334,10 +334,10 @@ function finalizePurchase() {
     };
 
      cart.forEach(item => {
-        const subtotal = item.price * item.quantity;
-        total += subtotal;
+       const price = Number(item.price); 
+        const subtotal = price * item.quantity;
+        total += subtotal; 
 
-        total += item.price * item.quantity;
         message += `#${item.id} - ${item.name}\n`;
         message += `• Precio: S/ ${item.price}\n`;
         message += `• Generación: ${item.generation}\n`;
