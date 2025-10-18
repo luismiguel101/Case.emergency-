@@ -8,97 +8,94 @@ let currentSlide = 0;
 const products = {
     'iPhone 12': {
         'normal': [
-            { id: 1, name: 'Estrellas Brillantes', price: 25, image: "img/12normal/01.jpg" },
-            { id: 2, name: 'Plomo', price: 28, image: "img/12normal/02.jpg" },
-            { id: 3, name: 'Océano Rosa', price: 25, image: "img/12normal/03.jpg" },
-            { id: 4, name: 'Rosa Pastel C/Espejo', price: 25, image: "img/12normal/04.jpg" },
+            { id: 1, name: 'Estrellas Brillantes', price: 15, image: "img/12normal/01.jpg" },
+            { id: 2, name: 'Silver', price: 20, image: "img/12normal/02.jpg" },
+            { id: 3, name: 'Océano Rosa', price: 15, image: "img/12normal/03.jpg" },
+            { id: 4, name: 'Rosa Pastel C/Espejo', price: 15, image: "img/12normal/04.jpg" },
         ],
         'pro': [
-            { id: 5, name: 'Mr. Franklin', price: 25, image: "img/12pro/01.jpg" },
-            { id: 6, name: 'Coral Azul', price: 25, image: "img/12pro/02.jpg" },
-            { id: 7, name: 'Vino Tinto', price: 25, image: "img/12pro/03.jpg" },
-            { id: 8, name: 'Chrome heart', price: 25, image: "img/12pro/04.jpg" },
+            { id: 5, name: 'Mr. Franklin', price: 15, image: "img/12pro/01.jpg" },
+            { id: 6, name: 'Coral Azul', price: 15, image: "img/12pro/02.jpg" },
+            { id: 7, name: 'Vino Tinto', price: 15, image: "img/12pro/03.jpg" },
+            { id: 8, name: 'Chrome heart', price: 15, image: "img/12pro/04.jpg" },
         ],
         'pro-max': [
-            { id: 9, name: 'Blue mountain', price: 25, image: "img/12promax/01.jpg" },
-            { id: 10, name: 'Corazón brillante', price: 25, image: "img/12promax/02.jpg" },
-            { id: 11, name: 'Future', price: 25, image: "img/12promax/03.jpg" },
+            { id: 9, name: 'Blue mountain', price: 15, image: "img/12promax/01.jpg" },
+            { id: 10, name: 'Corazón brillante', price: 15, image: "img/12promax/02.jpg" },
+            { id: 11, name: 'Future', price: 15, image: "img/12promax/03.jpg" },
         ]
     },
     'iPhone 13': {
         'normal': [
-            { id: 12, name: 'Red kisses', price: 25, image: "img/13normal/01.jpg" },
+            { id: 12, name: 'Red kisses', price: 15, image: "img/13normal/01.jpg" },
         ],
 
         'pro': [
-            { id: 13, name: 'Floricienta', price: 25, image: "img/13pro/01.jpg" },
-            { id: 14, name: 'Kisses', price: 25, image: "img/13pro/02.jpg" },
-            { id: 15, name: 'Silver', price: 28, image: "img/13pro/03.jpg" },
-            { id: 16, name: 'Batman', price: 25, image: "img/13pro/04.jpg" },
-            { id: 17, name: 'Relieve rosa', price: 25, image: "img/13pro/05.jpg" },
+            { id: 13, name: 'Floricienta', price: 15, image: "img/13pro/01.jpg" },
+            { id: 14, name: 'Kisses', price: 15, image: "img/13pro/02.jpg" },
+            { id: 15, name: 'Silver', price: 20, image: "img/13pro/03.jpg" },
+            { id: 16, name: 'Batman', price: 15, image: "img/13pro/04.jpg" },
+            { id: 17, name: 'Relieve rosa', price: 15, image: "img/13pro/05.jpg" },
         ],
         'pro-max': [
-            { id: 18, name: 'Mr. Franklin', price: 25, image: "img/13promax/01.jpg" },
-            { id: 19, name: 'Corazón turco', price: 25, image: "img/13promax/02.jpg" },
-            { id: 20, name: 'Chrome heart', price: 25, image: "img/13promax/03.jpg" },
-            { id: 21, name: 'Leopardo', price: 25, image: "img/13promax/04.jpg" },
+            { id: 18, name: 'Mr. Franklin', price: 15, image: "img/13promax/01.jpg" },
+            { id: 19, name: 'Corazón turco', price: 15, image: "img/13promax/02.jpg" },
+            { id: 20, name: 'Chrome heart', price: 15, image: "img/13promax/03.jpg" },
+            { id: 21, name: 'Leopardo', price: 15, image: "img/13promax/04.jpg" },
         ]
     },
     'iPhone 14': {
         'normal': [
-            { id: 22, name: 'Beach', price: 28, image: "img/14normal/01.jpg" },
+            { id: 22, name: 'Beach', price: 20, image: "img/14normal/01.jpg" },
         ],
         'pro': [
-            { id: 23, name: 'Blue mountain', price: 25, image: "img/14pro/01.jpg" },
-            { id: 24, name: 'Red kisses', price: 25, image: "img/14pro/02.jpg" },
-            { id: 25, name: 'Vino Tinto', price: 25, image: "img/14pro/03.jpg" },
-            { id: 26, name: 'Love', price: 25, image: "img/14pro/04.jpg" },
-            { id: 27, name: '+18', price: 25, image: "img/14pro/05.jpg" },
+            { id: 23, name: 'Blue mountain', price: 15, image: "img/14pro/01.jpg" },
+            { id: 24, name: 'Red kisses', price: 15, image: "img/14pro/02.jpg" },
+            { id: 25, name: 'Vino Tinto', price: 15, image: "img/14pro/03.jpg" },
+            { id: 26, name: 'Love', price: 15, image: "img/14pro/04.jpg" },
+            { id: 27, name: '+18', price: 15, image: "img/14pro/05.jpg" },
         ],
         'pro-max': [
-            { id: 28, name: 'Marvel', price: 25, image: "img/14promax/01.jpg" },
-            { id: 29, name: 'Silver blue', price: 28, image: "img/14promax/02.jpg" },
-            { id: 30, name: 'Olas', price: 25, image: "img/14promax/03.jpg" },
-            { id: 31, name: 'Corazón turco', price: 25, image: "img/14promax/04.jpg" },
-            { id: 32, name: 'Future', price: 25, image: "img/14promax/05.jpg" },
+            { id: 28, name: 'Marvel', price: 15, image: "img/14promax/01.jpg" },
+            { id: 29, name: 'Silver blue', price: 20, image: "img/14promax/02.jpg" },
+            { id: 30, name: 'Olas', price: 15, image: "img/14promax/03.jpg" },
+            { id: 32, name: 'Future', price: 15, image: "img/14promax/05.jpg" },
         ]
     },
     'iPhone 15': {
         'normal': [
-            { id: 33, name: 'Bola 8', price: 25, image: "img/15normal/01.jpg" },
-            { id: 34, name: 'Corazones rosas', price: 25, image: "img/15normal/02.jpg" },
-            { id: 35, name: 'Marvel', price: 25, image: "img/15normal/03.jpg" },
-            { id: 36, name: 'Coral Azul', price: 25, image: "img/15normal/04.jpg" },
-            { id: 37, name: 'Lazos Brillantes', price: 25, image: "img/15normal/05.jpg" },
+            { id: 33, name: 'Corazones rosas', price: 15, image: "img/15normal/02.jpg" },
+            { id: 34, name: 'Coral Azul', price: 15, image: "img/15normal/04.jpg" },
+            { id: 35, name: 'Lazos Brillantes', price: 15, image: "img/15normal/05.jpg" },
         ],
         'pro': [
-            { id: 38, name: 'Silver blue', price: 28, image: "img/15pro/01.jpg" },
-            { id: 39, name: 'Olas', price: 25, image: "img/15pro/02.jpg" },
-            { id: 40, name: 'Beach', price: 25, image: "img/15pro/03.jpg" },
-            { id: 41, name: 'Love', price: 25, image: "img/15pro/04.jpg" },
-            { id: 42, name: 'Leopardo', price: 25, image: "img/15pro/05.jpg" },
+            { id: 36, name: 'Silver blue', price: 20, image: "img/15pro/01.jpg" },
+            { id: 34, name: 'Olas', price: 15, image: "img/15pro/02.jpg" },
+            { id: 35, name: 'Beach', price: 15, image: "img/15pro/03.jpg" },
+            { id: 36, name: 'Love', price: 15, image: "img/15pro/04.jpg" },
+            { id: 37, name: 'Leopardo', price: 15, image: "img/15pro/05.jpg" },
         ],
         'pro-max': [
-            { id: 43, name: 'Rosa Pastel C/Espejo', price: 25, image: "img/15promax/01.jpg" },
-            { id: 44, name: '+18', price: 25, image: "img/15promax/02.jpg" },
+            { id: 38, name: 'Rosa Pastel C/Espejo', price: 15, image: "img/15promax/01.jpg" },
+            { id: 39, name: '+18', price: 15, image: "img/15promax/02.jpg" },
 
         ]
     },
     'iPhone 16': {
         'normal': [
-            { id: 45, name: 'Estrellas Brillantes', price: 25, image: "img/16normal/01.jpg" },
-            { id: 46, name: 'Batman', price: 25, image: "img/16normal/02.jpg" },
+            { id: 40, name: 'Estrellas Brillantes', price: 15, image: "img/16normal/01.jpg" },
+            { id: 41, name: 'Batman', price: 15, image: "img/16normal/02.jpg" },
 
         ],
         'pro': [
-            { id: 47, name: 'Bola 8 ', price: 25, image: "img/16pro/01.jpg" },
-            { id: 48, name: 'Floricienta', price: 25, image: "img/16pro/02.jpg" },
-            { id: 49, name: 'Corazones rosas', price: 25, image: "img/16pro/03.jpg" },
-            { id: 50, name: 'Kisses', price: 25, image: "img/16pro/04.jpg" },
+            { id: 42, name: 'Bola 8 ', price: 15, image: "img/16pro/01.jpg" },
+            { id: 43, name: 'Floricienta', price: 15, image: "img/16pro/02.jpg" },
+            { id: 44, name: 'Corazones rosas', price: 15, image: "img/16pro/03.jpg" },
+            { id: 45, name: 'Kisses', price: 15, image: "img/16pro/04.jpg" },
         ],
 
         'pro-max': [
-            { id: 51, name: 'Corazón brillante', price: 25, image: "img/16promax/01.jpg" },
+            { id: 46, name: 'Corazón brillante', price: 15, image: "img/16promax/01.jpg" },
         ]
     }
 };
